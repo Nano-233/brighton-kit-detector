@@ -1,16 +1,16 @@
-# **⚽ Custom Football Kit Detector**
+# **Custom Football Kit Detector**
 
 A real-time object detection project that uses a custom-trained YOLO model to identify and classify specific football kits from a live webcam feed or video file.
 
 ---
 
-## **📸 Project Demo**
+## **Project Demo**
 
-[![Watch the demo video](https://img.youtube.com/vi/UaQ0ZdzlrgQ/maxresdefault.jpg)](https://youtu.be/UaQ0ZdzlrgQ)
+![Football Kit Detector Demo](img/output.gif)
 
 ---
 
-## **🎯 Features**
+## **Features**
 
 * **Real-time Detection:** Identifies 6 different football kits from a live video feed.  
 * **Custom-Trained Model:** Trained from scratch on a personally-collected dataset of hundreds of images.  
@@ -19,7 +19,7 @@ A real-time object detection project that uses a custom-trained YOLO model to id
 
 ---
 
-## **🛠️ The Pipeline**
+## **The Pipeline**
 
 
 ### **1\. Data Collection & Labeling**
@@ -42,7 +42,7 @@ The detect.py script is the final application. It loads the custom-trained best.
 
 ---
 
-## **🚀 How to Run**
+## **How to Run**
 
 ### **1\. Prerequisites**
 
@@ -77,7 +77,7 @@ python detect.py \--model models/best.pt \--source path/to/your\_video.mp4
 
 ---
 
-## **📂 Project Structure**
+## **Project Structure**
 
 /football-kit-detector  
 ├── dataset/            \# Data config and (split) image/label files  
