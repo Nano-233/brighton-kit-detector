@@ -6,7 +6,7 @@ A real-time object detection project that uses a custom-trained YOLO model to id
 
 ## **📸 Project Demo**
 
-[![Watch the demo video](https://img.youtube.com/vi/UaQ0ZdzlrgQ/maxresdefault.jpg)](https://youtu.be/UaQ0ZdzlrgQ)
+![My Model's Output](img/output.png)
 
 ---
 
