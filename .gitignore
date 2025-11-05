@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.venv/
+venv/
+env/
+
+# YOLO / ML Training Output
+# We want to ignore the 'runs' folder where temporary training
+# files are stored. We will manually add the analytics.
+runs/
+
+# Dataset Files
+# We ignore the dataset folders to avoid uploading thousands of images.
+# The 'data.yaml' file will be uploaded as it's not ignored.
+dataset/train/
+dataset/val/
+
+# Model Files
+# Ignore all .pt files by default...
+*.pt
+# ...but make an exception for our final model in the 'models' folder.
+!models/best.pt
+!models/kit_model.pt
+
+# OS specific files
+.DS_Store
+Thumbs.db

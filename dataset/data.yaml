@@ -1,0 +1,16 @@
+# Path to train images directory (relative to the project root)
+train: dataset/train/images
+# Path to validation images directory (relative to the project root)
+val: dataset/val/images
+
+# Number of classes
+nc: 6
+
+# Class names in the correct order
+names: 
+  - 'Europa'
+  - 'First'
+  - 'Jacket'
+  - 'Second'
+  - 'Third'
+  - 'Training'
